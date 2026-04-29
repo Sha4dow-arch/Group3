@@ -7,11 +7,12 @@
     <title>Login Form</title>
 </head>
 <body>
+    <script src="add.js"></script>
     <form action="/submit-login" method="post">
         <h2>Login Form</h2>
         <input type="text" id="username" name="username" placeholder="username"><br><br>
         <input type="password" id="password" name="password" placeholder="password"><br><br>
-        <input type="submit" value="Login">
+        <button type="submit" onclick="alert('Successfully')">Login</button><br><br>
         <p>Don't have an account?<a href="#">Register</a></p>
     </form>
 </body>
